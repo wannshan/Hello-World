@@ -1,1 +1,10 @@
-Hello World!
+本项目旨在用一些主流的jee技术扩建，搭建一个简单的社交web应用，以期达成学习jee技术框架的目的。
+暂定的计划
+一期目标
+使用spring-boot(freemarker,springsecurity,springmvc,redis(session),mybatis,mysql)搭建一个用户注册，查看信息的简单应用
+主要是学习spring-boot的开发方式
+二期目标
+开发一些后台分布式微服务，并使用spring-clould（相关组件）做服务治理，使用一些网关治理（kong,zuul）工具和api接口管理工具（swragger）
+三期目标
+docker化应用，利用docker云相关工具（compose,swarm,fleet,flynn,k8s）熟悉学习容器化技术。
+目的还是跟踪一些主流的开发技术。

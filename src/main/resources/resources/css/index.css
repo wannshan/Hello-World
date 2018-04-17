@@ -1,0 +1,51 @@
+html{height: 100%;}
+body.signin {
+    background: #18c8f6;
+    height: auto;
+    background:url("../img/login-background.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(255,255,255,.95);
+}
+
+.loginpanel {
+    width: 320px;
+    margin: 10% auto 0 auto;
+}
+
+.loginpanel .logopanel {
+    float: none;
+    width: auto;
+    padding: 0;
+    background: none;
+}
+
+.loginpanel .signin-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.loginpanel .form-control {
+    display: block;
+    margin-top: 15px;
+}
+
+
+.loginpanel .btn {
+    margin-top: 15px;
+}
+
+.loginpanel form {
+    background: rgba(205, 108, 114, 0.6);
+    border: 1px solid rgba(205, 108, 114,.3);
+    -moz-box-shadow: 0 3px 0 rgba(12, 12, 12, 0.03);
+    -webkit-box-shadow: 0 3px 0 rgba(12, 12, 12, 0.03);
+    box-shadow: 0 3px 0 rgba(12, 12, 12, 0.03);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 30px;
+}
