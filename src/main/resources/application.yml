@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.64.132:8761/eureka/
+  instance:
+        ipAddress: 10.47.17.176
+        hostname: wannshan
+        preferIpAddress: true
+        instance-id: 10.47.17.176:8080
+        lease-renewal-interval-in-seconds: 10
+        lease-expiration-duration-in-seconds: 10

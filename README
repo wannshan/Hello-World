@@ -4,7 +4,7 @@
 使用spring-boot(freemarker,springsecurity,springmvc,redis(session),mybatis,mysql)搭建一个用户注册，查看信息的简单应用
 主要是学习spring-boot的开发方式
 二期目标
-开发一些后台分布式微服务，并使用spring-clould（相关组件）做服务治理，使用一些网关治理（kong,zuul）工具和api接口管理工具（swragger）
+开发一些后台分布式微服务，并使用spring-cloud（相关组件eureka,hystrix,openfeign,sleuth,zuul 等）做服务治理监控,使用api接口管理工具（swragger）做接口管理
 三期目标
 docker化应用，利用docker云相关工具（compose,swarm,fleet,flynn,k8s）熟悉学习容器化技术。
 目的还是跟踪一些主流的开发技术。

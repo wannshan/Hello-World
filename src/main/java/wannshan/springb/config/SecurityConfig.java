@@ -17,18 +17,18 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
    private  CustomUserDetailsService customUserDetailsService;
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.csrf().disable()
-                .authorizeRequests()
-                .antMatchers("/css/**", "/javascript/**","/img/**").permitAll()
-                .antMatchers("/users/**").authenticated()
-                .antMatchers("/index").authenticated()
-                .antMatchers("/register").permitAll()
-                .and()
-                .formLogin()
-                .loginPage("/login").permitAll().defaultSuccessUrl("/index").failureUrl("/");
-        http    .logout()
-                .logoutUrl("/logout").permitAll()
-                .logoutSuccessUrl("/");
+//        http.csrf().disable()
+//                .authorizeRequests()
+//                .antMatchers("/css/**", "/javascript/**","/img/**").permitAll()
+//                .antMatchers("/users/**").authenticated()
+//                .antMatchers("/index").authenticated()
+//                .antMatchers("/register").permitAll()
+//                .and()
+//                .formLogin()
+//                .loginPage("/login").permitAll().defaultSuccessUrl("/index").failureUrl("/");
+//        http    .logout()
+//                .logoutUrl("/logout").permitAll()
+//                .logoutSuccessUrl("/");
     }
 
     @Autowired
